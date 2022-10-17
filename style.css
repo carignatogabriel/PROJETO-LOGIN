@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*FONTE PARA O PROJETO*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+body, html {
+    background-color: rgb(33, 33, 33);
+    background-image: url(../images/selenada-fantasy-elf-5l-640x1136.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+section:hover {
+    box-shadow: 0px 0px 8px 0px #3686CA;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+div.campo > input {
+ background-color:  rgb(33, 33, 33);
+ font-size: 1em;
+ width: 200px;
+border-radius: 0px 10px 10px 0px;
+border: 1px solid #3686CA;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: rgb(49, 49, 49);
+    width: 250px;
+    height: 550px;
+    border-radius: 20px;
+   
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
+
+}
+
+section#login > div#imagem {
+    display: block;
+    background: rgb(33, 33, 33) url(../images/a0276a8c52c39e65de7114454da98527.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+} 
+
+div#formulário{
+    display: block;
+    padding: 10px;
+}
+
+div#formulário > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulário > p {
+    font-size: 0.9em;
+}
+
+form > div.campo {
+    
+    
+    margin: 10px 0px;
+    width: 100%;
+    height: 40px;
+}
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    border: 1px solid #3686CA;;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    transition: linear 0.5s;
+    margin-bottom: 10px;
+}
+.enter {
+    margin-top: 10px;
+}
+
+.campo > span{
+   color: #3686CA;
+}
+
+a {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 1em;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #3686CA;
+    border-radius: 20px;
+    padding-top: 5px;
+
+}
+
+a:hover {
+    background-color: #3686CA;
+    transform: scale(1.03);
+    transition: 0.3s linear;
+}
+
+section:hover {
+    opacity: 0.9;
+}
